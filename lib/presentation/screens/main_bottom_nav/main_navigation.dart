@@ -37,8 +37,8 @@ final List<BottomNavigationBarItem> _bottomNavItems = <BottomNavigationBarItem>[
 
 final List<Widget> _bottomNavScreen = <Widget>[
   const HomeScreen(),
-  const FavoriteScreen(),
   const MusicScreen(),
+  const FavoriteScreen(),
 ];
 
 class MainNavigation extends StatelessWidget {
